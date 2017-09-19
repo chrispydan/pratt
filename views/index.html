@@ -1,0 +1,132 @@
+<extends src='layout.html'>
+  <block name='content'>
+
+
+		<section id="content">
+
+			<div id="section-about" class="content-wrap nopadding">
+				<div class="section parallax full-screen nomargin noborder" style="background-image: url('images/art/brushes.jpg');" data-stellar-background-ratio="0.4">
+					<div class="vertical-middle">
+						<div class="container clearfix">
+
+							<div class="nobottommargin">
+
+								<div class="emphasis-title">
+									<h2>{{ dato.project[0].section1Title }}</h2>
+									<p class="lead">{{ dato.project[0].section1Content }}</p>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="section-works" class="page-section notoppadding">
+					<div class="section nomargin">
+						<div class="container clearfix">
+							<div class="divcenter center" style="max-width: 900px;">
+								<h2 class="nobottommargin t300 ls1">{{ dato.project[0].section1Title }}</h2>
+								<each loop="item in [1,2,3]">
+  <p></p>
+</each>
+							</div>
+						</div>
+					</div>
+
+					<!-- Portfolio Items
+					============================================= -->
+					<div id="portfolio" class="portfolio grid-container portfolio-nomargin portfolio-full portfolio-masonry mixed-masonry clearfix">
+						
+						<article class="portfolio-item pf-media pf-icons wide">
+							<div class="portfolio-image">
+								<a href="#">
+									<img src="" alt="North View">
+								</a>
+								<div class="portfolio-overlay">
+									<div class="portfolio-desc">
+										<h3><a href="#">North View</a></h3>
+									</div>
+								</div>
+							</div>
+						</article> 
+						
+
+						<article class="portfolio-item pf-graphics pf-icons wide">
+							<div class="portfolio-image">
+								<a href="#">
+									<img src="images/renders/shed.jpg">
+								</a>
+								<div class="portfolio-overlay">
+									<div class="portfolio-desc">
+										<h3><a href="#">Shed</a></h3>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="portfolio-item pf-media pf-icons wide">
+							<div class="portfolio-image">
+								<a href="#">
+									<img src="images/renders/east.jpg" alt="East">
+								</a>
+								<div class="portfolio-overlay">
+									<div class="portfolio-desc">
+										<h3><a href="#">East View</a></h3>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<article class="portfolio-item pf-uielements pf-media wide">
+							<div class="portfolio-image">
+								<a href="#">
+									<img src="images/renders/southeast.jpg" alt="South East">
+								</a>
+								<div class="portfolio-overlay">
+									<div class="portfolio-desc">
+										<h3><a href="#">South East</a></h3>
+									</div>
+								</div>
+							</div>
+						</article>
+
+					</div><!-- #portfolio end -->
+
+					<div class="topmargin center"><a href="#" class="button button-border button-circle t600">View More Renderings</a></div>
+
+				</div>
+
+
+				<div id="section-contact" class="page-section notoppadding nobottompadding">
+
+					<div class="row noleftmargin norightmargin common-height">
+						<div id="headquarters-map" class="col-md-8 col-sm-6 gmap hidden-xs"></div>
+						<div class="col-md-4 col-sm-6" style="background-color: #F5F5F5;">
+							<div class="col-padding max-height">
+								<h3 class="font-body t400 ls1">Daniels Real Estate</h3>
+
+								<div style="font-size: 16px; line-height: 1.7;">
+									<address style="line-height: 1.7;">
+										2401 Utah Ave S., Suite #305<br>
+										Seattle, WA 98134<br>
+									</address>
+
+									<div class="clear topmargin"></div>
+
+									<abbr title="Phone Number"><strong>Phone:</strong></abbr> 206-382-4600<br>
+									<abbr title="Fax"><strong>Fax:</strong></abbr> 206-467-0423<br>
+									<abbr title="Email Address"><strong>Email:</strong></abbr> <a href="{{ dato.project[0].section1Title }}">{{ dato.project[0].email }}</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+
+
+  </block>
+</extends>

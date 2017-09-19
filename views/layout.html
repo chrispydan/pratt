@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='description' content='{{ dato.project[0].seo.description }}'>
+    <meta name='author' content='Daniels Real Estate'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <block name='title'>
+      <title>{{ dato.project[0].seo.title }}</title>
+    </block>
+    <link rel='stylesheet' href='css/index.css'>
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+
+  </head> 
+  <body class="stretched">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header transparent-header dark static-sticky" data-sticky-class="dark" data-sticky-offset="200">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="index.html" class="standard-logo" data-dark-logo="//www.datocms-assets.com{{ dato.project[0].companyLogo.path }}"><img style="padding: 30px 0;" src="//www.datocms-assets.com{{ dato.project[0].companyLogo.path }}" alt="Daniels Real Estate Logo"></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu">
+
+						<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+							<li><a href="#" data-href="#header-wrap"><div>Home</div></a></li>
+							<li><a href="#" data-href="#section-about"><div>{{ dato.project[0].section1Title }}</div></a></li>
+							<li><a href="#" data-href="#section-works"><div>{{ dato.project[0].section2Title }}</div></a></li>
+							<li><a href="#" data-href="#section-contact"><div>Contact</div></a></li>
+						</ul>
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+	  		<section id="slider" class="slider-parallax revslider-wrap clearfix">
+
+			<div id="rev_slider_op-fc_wrapper" class="rev_slider_wrapper fullscreen-container"  style="padding:0px;">
+					<!-- START REVOLUTION SLIDER 5.1.4 fullscreen mode -->
+					<div id="rev_slider_op-fc" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.1.4">
+					<ul>    <!-- SLIDE  -->
+						<li class="dark" data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="//www.datocms-assets.com{{ dato.project[0].backgroundIntro.path }}" data-delay="10000"  data-saveperformance="off" data-title="The Pratt.">
+							<!-- MAIN IMAGE -->
+							<img src='//www.datocms-assets.com{{ dato.project[0].backgroundIntro.path }}?w=1920&h=1080&fm=jpg'  alt="kenburns6"  data-bgposition="left center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-bgpositionend="right center">
+							<!-- LAYERS -->
+								<div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme"
+									 id="slide-166-layer-8"
+									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+												data-width="full"
+									data-height="full"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+
+									 data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeOut;"
+									 data-transform_out="auto:auto;s:1000;"
+									 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+									data-start="1500"
+									data-basealign="slide"
+									data-responsive_offset="on"
+
+
+									style="z-index: 2;background-color:rgba(0, 0, 0, 0.50);border-color:rgba(0, 0, 0, 1.00);">
+								</div>
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption center ltl tp-resizeme"
+							data-x="338"
+							data-y="200"
+							data-textAlign="center"
+							data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+							data-speed="800"
+							data-start="1000"
+							data-easing="easeOutQuad"
+							data-splitin="none"
+							data-splitout="none"
+							data-elementdelay="0.01"
+							data-endelementdelay="0.1"
+							data-endspeed="1000"
+							data-endeasing="Power4.easeIn" style="z-index: 3;">
+								<div class="emphasis-title nobottommargin">
+									<h1><span class="t700 font-body opm-large-word nocolor">{{ dato.project[0].projectTitle }}</span></h1>
+    	            <p><span class="t400 font-body nocolor">{{ dato.project[0].subtitle }}</span></p>
+								</div>
+							</div>
+
+						</li>
+					</ul>
+				</div>
+			</div><!-- END REVOLUTION SLIDER -->
+		</section>
+    
+      <block name='content'></block>
+
+
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights" class="dark">
+
+				<div class="container clearfix">
+
+					<div class="col_half">
+						<img src="//www.datocms-assets.com{{ dato.project[0].companyLogo.path }}" alt="Daniels Real Estate" class="footer-logo" style="max-width:200px;">
+
+						&copy; 2017 All Rights Reserved by Daniels Real Estate, LLC.
+					</div>
+
+					<div class="col_half col_last tright">
+						<div class="copyrights-menu copyright-links fright clearfix">
+							<a href="#slider">Home</a>/<a href="#section-about">About The Pratt</a>/<a href="#section-works">Features</a>/<a href="#portfolio">Project Renderings</a>/<a href="#section-contact">Contact</a>
+						</div>
+						<div class="fright clearfix">
+							<a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless nobottommargin si-twitter">
+								<i class="icon-twitter"></i>
+								<i class="icon-twitter"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless nobottommargin si-vimeo">
+								<i class="icon-vimeo"></i>
+								<i class="icon-vimeo"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless nobottommargin si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
+
+
+
+    <block name='javascript'>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+
+      <script src='js/main.js' defer></script>
+      	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
+	<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyDimk6L8sjAG96Da4I9lZ9yQLXc0vjUvrk"></script>
+	<script type="text/javascript">
+
+		// Revolution Slider Scripts
+		var tpj=jQuery;
+		tpj.noConflict();
+
+		tpj(document).ready(function() {
+
+			var apiRevoSlider = tpj('#rev_slider_op-fc').show().revolution(
+			{
+				sliderType:"standard",
+				jsFileLocation:"include/rs-plugin/js/",
+				sliderLayout:"fullscreen",
+				dottedOverlay:"none",
+				delay:16000,
+				responsiveLevels:[1140,992,768,480],
+				visibilityLevels:[1140,992,768,480],
+				gridwidth:[1140,992,768,480],
+				gridheight:[700,768,960,720],
+				hideThumbs:200,
+
+				thumbWidth:100,
+				thumbHeight:50,
+				thumbAmount:5,
+
+				navigation: {
+					keyboardNavigation:"off",
+					keyboard_direction: "horizontal",
+					mouseScrollNavigation:"off",
+					onHoverStop:"off",
+					touch:{
+						touchenabled:"on",
+						swipe_threshold: 75,
+						swipe_min_touches: 1,
+						swipe_direction: "horizontal",
+						drag_block_vertical: false
+					},
+					arrows: {
+						style: "hermes",
+						enable: false,
+						hide_onmobile: false,
+						hide_onleave: false,
+						tmp: '<div class="tp-arr-titleholder">{{title}}</div>',
+						left: {
+							h_align: "left",
+							v_align: "center",
+							h_offset: 10,
+							v_offset: 0
+						},
+						right: {
+							h_align: "right",
+							v_align: "center",
+							h_offset: 10,
+							v_offset: 0
+						}
+					}
+				},
+
+				touchenabled:"on",
+				onHoverStop:"on",
+
+				swipe_velocity: 0.7,
+				swipe_min_touches: 1,
+				swipe_max_touches: 1,
+				drag_block_vertical: false,
+
+				keyboardNavigation:"off",
+
+				shadow:0,
+				fullWidth:"off",
+				fullScreen:"on",
+
+				spinner:"spinner4",
+
+				stopLoop:"off",
+				stopAfterLoops:-1,
+				stopAtSlide:-1,
+
+				shuffle:"off",
+
+				autoHeight:"off",
+				forceFullWidth:"off",
+
+				hideThumbsOnMobile:"off",
+				hideNavDelayOnMobile:1500,
+				hideBulletsOnMobile:"off",
+				hideArrowsOnMobile:"off",
+				hideThumbsUnderResolution:0,
+
+				hideSliderAtLimit:0,
+				hideCaptionAtLimit:0,
+				hideAllCaptionAtLilmit:0,
+				startWithSlide:0,
+			});
+
+			apiRevoSlider.bind("revolution.slide.onchange",function (e,data) {
+				SEMICOLON.slider.revolutionSliderMenu();
+			});
+
+		}); //ready
+
+		jQuery(window).load(function(){
+
+			// Google Map
+			jQuery('#headquarters-map').gMap({
+				address: '2401 Utah Ave S., Seattle, Washington',
+				maptype: 'ROADMAP',
+				zoom: 13,
+				markers: [
+					{
+						address: "2401 Utah Ave S., Suite #305, Seattle, Washington",
+						html: "Seattle, Washington",
+						icon: {
+							image: "images/icons/map-icon-red.png",
+							iconsize: [32, 32],
+							iconanchor: [14,44]
+						}
+					}
+				],
+				doubleclickzoom: false,
+				controls: {
+					panControl: false,
+					zoomControl: false,
+					mapTypeControl: false,
+					scaleControl: false,
+					streetViewControl: false,
+					overviewMapControl: false
+				},
+				styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":"-100"},{"lightness":"30"}]},{"featureType":"administrative.neighborhood","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"simplified"},{"gamma":"0.00"},{"lightness":"74"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"lightness":"3"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
+			});
+
+		});
+
+	</script>
+    
+    </block>
+  </body>
+</html>
