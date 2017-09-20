@@ -1,9 +1,7 @@
-@import 'imports/bootstrap';
-@import 'onepage';
 
 @import 'imports/dark';
 @import 'imports/font-icons';
-@import 'imports/animate.css';
+@import 'imports/animate';
 @import 'imports/magnific-popup';
 @import 'imports/fonts';
 @import 'imports/responsive';
