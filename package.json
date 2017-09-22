@@ -19,6 +19,8 @@
   "devDependencies": {
     "ava": "^0.19.1",
     "cssnano": "^3.10.0",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
     "rimraf": "^2.6.1",
     "snazzy": "^7.0.0",
     "standard": "^10.0.2"
