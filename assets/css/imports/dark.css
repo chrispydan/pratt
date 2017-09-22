@@ -1007,9 +1007,6 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 
 .dark .error404 { color: rgba(255,255,255,0.15); }
 
-.dark.error404-wrap .form-control::-webkit-input-placeholder { color: #888; }
-.dark.error404-wrap .form-control::-moz-placeholder { color: #888; }
-.dark.error404-wrap .form-control:-ms-input-placeholder { color: #888; }
 
 .dark .preloader { background-color: rgba(0,0,0,0.2); }
 
@@ -1202,8 +1199,8 @@ body #side-panel.dark #side-panel-trigger-close a {
 .dark .table-hover > tbody > tr.active:hover > th { background-color: rgba(255,255,255,0.1); }
 
 @media (max-width: 767px) {
-	.table-responsive { border-color: rgba(255,255,255,0.1); }
 }
+
 
 .dark legend {
 	color: #DDD;

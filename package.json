@@ -8,13 +8,17 @@
   },
   "bugs": "https://github.com/chrispydan/800-columbia/issues",
   "dependencies": {
+    "extract-text-webpack-plugin": "^3.0.0",
+    "postcss-discard-unused": "^2.2.3",
+    "postcss-uncss": "^0.15.0",
     "reshape-standard": "^3.1.1",
     "spike": "^2.0.0",
     "spike-css-standards": "^3.0.0",
     "spike-datocms": "^2.2.2",
     "spike-js-standards": "^2.0.2",
     "spike-optimize": "^0.1.2",
-    "spike-page-id": "^1.0.0"
+    "spike-page-id": "^1.0.0",
+    "uncss": "^0.15.0"
   },
   "devDependencies": {
     "ava": "^0.19.1",
