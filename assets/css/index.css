@@ -1,32 +1,32 @@
 /*  Core CSS */
-@import url("css/imports/typography.css");
-@import url("css/imports/helpers.css");
-@import url("css/imports/layouts.css");
+@import url("imports/typography.css");
+@import url("imports/helpers.css");
+@import url("imports/layouts.css");
 
 
 /*  Content Blocks */
-@import url("css/imports/topbar.css");
-@import url("css/imports/header.css");
-@import url("css/imports/sliders.css");
-@import url("css/imports/pagetitle.css");
-@import url("css/imports/content.css");
-@import url("css/imports/portfolio.css");
-@import url("css/imports/blog.css");
-@import url("css/imports/shop.css");
-@import url("css/imports/events.css");
+@import url("imports/topbar.css");
+@import url("imports/header.css");
+@import url("imports/sliders.css");
+@import url("imports/pagetitle.css");
+@import url("imports/content.css");
+@import url("imports/portfolio.css");
+@import url("imports/blog.css");
+@import url("imports/shop.css");
+@import url("imports/events.css");
 
 
 /*  Shortcodes */
-@import url("css/imports/shortcodes.css");
+@import url("imports/shortcodes.css");
 
 
 /*  Footer */
-@import url("css/imports/footer.css");
+@import url("imports/footer.css");
 
 
 /*  Widgets */
-@import url("css/imports/widgets.css");
+@import url("imports/widgets.css");
 
 
 /*  Extras */
-@import url("css/imports/extras.css");
+@import url("imports/extras.css");
