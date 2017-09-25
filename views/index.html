@@ -38,11 +38,11 @@
 						<article class="portfolio-item pf-media pf-icons wide">
 							<div class="portfolio-image">
 								<a href="#">
-									<img src='{{ `//www.datocms-assets.com${photo.path}` }}' alt="North View">
+									<img src='{{ `//www.datocms-assets.com${photo.path}` }}' alt="{{ photo.alt }}">
 								</a>
 								<div class="portfolio-overlay">
 									<div class="portfolio-desc">
-										<h3><a href="#">{{ dato.project[0].renders.title }}</a></h3>
+										<h3><a href="#">{{ photo.title }}</a></h3>
 									</div>
 								</div>
 							</div>
