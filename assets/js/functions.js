@@ -740,7 +740,7 @@ var SEMICOLON = SEMICOLON || {};
 					var element = $(this),
 						elementImg = element.attr( 'data-lazyload' );
 
-					element.attr( 'src', 'images/blank.svg' ).css({ 'background': 'url(images/preloader.gif) no-repeat center center #FFF' });
+					element.attr( 'src', 'images/blank.svg' ).css({ 'background': 'url(https://d1v1j9yy7z2uc4.cloudfront.net/images/loader.gif) no-repeat center center #FFF' });
 
 					element.appear(function () {
 						element.css({ 'background': 'none' }).removeAttr( 'width' ).removeAttr( 'height' ).attr('src', elementImg);
