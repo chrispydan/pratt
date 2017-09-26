@@ -100,7 +100,7 @@
 	text-decoration: none;
 }
 .camera_loader {
-    background: url(https://d1v1j9yy7z2uc4.cloudfront.net/img/preloader.gif) no-repeat center;
+    background: url(https://d1v1j9yy7z2uc4.cloudfront.net/images/loader.gif) no-repeat center;
 	height: 48px;
 	left: 50%;
 	overflow: hidden;
