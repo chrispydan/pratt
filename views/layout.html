@@ -30,10 +30,8 @@
 	<link rel="stylesheet" href="https://d1v1j9yy7z2uc4.cloudfront.net/css/imports/magnific-popup.css" type="text/css" />
 
 	<link rel="stylesheet" href="https://d1v1j9yy7z2uc4.cloudfront.net/css/imports/fonts.css" type="text/css" />
-<script src="//use.edgefonts.net/abril-fatface.js"></script> 
+	<script src="//use.edgefonts.net/abril-fatface.js"></script> 
 	<link rel="stylesheet" href="https://d1v1j9yy7z2uc4.cloudfront.net/css/imports/responsive.css" type="text/css" />
-
-
   </head> 
   <body class="stretched" data-loader="1" data-animation-in="fadeIn" data-speed-in="1500" data-animation-out="fadeOut" data-speed-out="800">
 
@@ -70,16 +68,15 @@
 				</div>
 
 			</div>
+			</header><!-- #header end -->
 
-		</header><!-- #header end -->
-
-	  		<section id="slider" class="slider-parallax revslider-wrap clearfix">
+	  	<section id="slider" class="slider-parallax revslider-wrap clearfix">
 
 			<div id="rev_slider_op-fc_wrapper" class="rev_slider_wrapper fullscreen-container"  style="padding:0px;">
 					<!-- START REVOLUTION SLIDER 5.1.4 fullscreen mode -->
 					<div id="rev_slider_op-fc" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.1.4">
 					<ul>    <!-- SLIDE  -->
-						<li class="dark" data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="//www.datocms-assets.com{{ dato.project[0].backgroundIntro.path }}" data-delay="10000"  data-saveperformance="off" data-title="The Pratt.">
+						<li class="dark" data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="//www.datocms-assets.com{{ dato.project[0].backgroundIntro.path }}" data-delay="10000"  data-saveperformance="off" data-title="{{ dato.project[0].projectTitle }}">
 							<!-- MAIN IMAGE -->
 							<img src='//www.datocms-assets.com{{ dato.project[0].backgroundIntro.path }}?w=1920&h=1080&fm=jpg'  alt="kenburns6"  data-bgposition="left center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-bgpositionend="right center">
 							<!-- LAYERS -->
@@ -103,7 +100,6 @@
 									style="z-index: 2;background-color:rgba(0, 0, 0, 0.50);border-color:rgba(0, 0, 0, 1.00);">
 								</div>
 
-								
 							<!-- LAYER NR. 2 -->
 							<div class="tp-caption tp-resizeme"
 							data-x="['left','left','left','left']" data-hoffset="['0','50','50','40']" 
@@ -138,7 +134,7 @@
 							data-endspeed="1000"
 							data-endeasing="Power4.easeIn"style="z-index: 8; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 60px; line-height: 90px; color: #fefefe; letter-spacing: 15px; display: block;font-family: abril-fatface, serif;text-transform:uppercase;">{{ dato.project[0].projectTitle }}<br />
 							</div>
-<div>{{ dato.project[0].subtitle }}</div>
+							<div>{{ dato.project[0].subtitle }}</div>
 						</li>
 					</ul>
 				</div>
@@ -163,7 +159,11 @@
 
 					<div class="col_half col_last tright">
 						<div class="copyrights-menu copyright-links fright clearfix">
-							<a href="#slider">Home</a>/<a href="#section-about">About The Pratt</a>/<a href="#section-works">Features</a>/<a href="#portfolio">Project Renderings</a>/<a href="#section-contact">Contact</a>
+							<a href="#" data-href="#header-wrap"><div>Home</div></a>
+							<a href="#" data-href="#section-about"><div>{{ dato.project[0].section1Title }}</div></a>
+							<a href="#" data-href="#section-works"><div>{{ dato.project[0].section2Title }}</div></a>
+							<a href="#" data-href="#section-team"><div>Team</div></a>
+							<a href="#" data-href="#section-contact"><div>Contact</div></a>
 						</div>
 						<div class="fright clearfix">
 							<a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
