@@ -30,7 +30,7 @@
 	<link rel="stylesheet" href="https://d1v1j9yy7z2uc4.cloudfront.net/css/imports/magnific-popup.css" type="text/css" />
 
 	<link rel="stylesheet" href="https://d1v1j9yy7z2uc4.cloudfront.net/css/imports/fonts.css" type="text/css" />
-
+<script src="//use.edgefonts.net/abril-fatface.js"></script> 
 	<link rel="stylesheet" href="https://d1v1j9yy7z2uc4.cloudfront.net/css/imports/responsive.css" type="text/css" />
 
 
@@ -104,10 +104,28 @@
 
 								
 							<!-- LAYER NR. 2 -->
-							<div class="tp-caption center ltl tp-resizeme"
-							data-x="100"
-							data-y="200"
-							data-textAlign="center"
+							<div class="tp-caption tp-resizeme"
+							data-x="['left','left','left','left']" data-hoffset="['0','50','50','40']" 
+							data-y="['top','top','top','top']" data-voffset="['250','170','170','167']" 
+							data-fontsize="['60','50','30','30']"
+							data-lineheight="['90','75','60','60']"
+							data-letterspacing="['15','15','10','7']"
+							data-width="['100%','100%','561','401']"
+							data-height="none"
+							data-whitespace="normal"
+				
+							data-type="text" 
+							data-responsive_offset="on" 
+
+							data-margintop="[0,0,0,0]"
+							data-marginright="[0,0,0,0]"
+							data-marginbottom="[30,31,26,26]"
+							data-marginleft="[0,0,0,0]"
+							data-textAlign="['inherit','inherit','inherit','inherit']"
+							data-paddingtop="[0,0,0,0]"
+							data-paddingright="[0,0,0,0]"
+							data-paddingbottom="[0,0,0,0]"
+							data-paddingleft="[0,0,0,0]"
 							data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 							data-speed="800"
 							data-start="1000"
@@ -117,13 +135,9 @@
 							data-elementdelay="0.01"
 							data-endelementdelay="0.1"
 							data-endspeed="1000"
-							data-endeasing="Power4.easeIn" style="z-index: 3;">
-								<div class="emphasis-title nobottommargin">
-									<h1><span class="t700 font-body opm-large-word nocolor">{{ dato.project[0].projectTitle }}</span></h1>
-    	            <h2 style="nobottommargin t300 ls1">{{ dato.project[0].subtitle }}</h2>
-								</div>
+							data-endeasing="Power4.easeIn"style="z-index: 8; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 60px; line-height: 90px; color: #fefefe; letter-spacing: 15px; display: block;font-family: abril-fatface, serif;text-transform:uppercase;">{{ dato.project[0].projectTitle }}<br />
 							</div>
-
+<div>{{ dato.project[0].subtitle }}</div>
 						</li>
 					</ul>
 				</div>
