@@ -24,7 +24,8 @@ module.exports = {
     new Dato({
       addDataTo: locals,
       token: '27b8085f8fdf8fe0015df7ad5ae88d',
-      models: [{ name: 'project' }]
+      models: [{ name: 'project' }],
+      json: 'alldata.json'
     })
   ]
 }

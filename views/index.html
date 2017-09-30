@@ -20,68 +20,100 @@
 						</div>
 					</div>
 				</div>
-
-				<div id="section-works" class="page-section notoppadding">
-					<div class="section nomargin">
-						<div class="container clearfix">
-							<div class="divcenter center" style="max-width: 900px;">
-								<h2 class="nobottommargin t300 ls1">{{ dato.project[0].section1Title }}</h2>
-								
-							</div>
-						</div>
-					</div>
-
-					<!-- Portfolio Items
-					============================================= -->
-					<div id="portfolio" class="portfolio grid-container portfolio-nomargin portfolio-full portfolio-masonry mixed-masonry clearfix">
-						<each loop='photo of dato.project[0].renders'>
-						<article class="portfolio-item pf-media pf-icons wide">
-							<div class="portfolio-image">
-								<a href="#">
-									<img src='{{ `//www.datocms-assets.com${photo.path}?fit=crop&w=800&fm=jpg` }}' alt="{{ photo.alt }}">
-								</a>
-								<div class="portfolio-overlay">
-									<div class="portfolio-desc">
-										<h3><a href="#">{{ photo.title }}</a></h3>
-									</div>
-								</div>
-							</div>
-						</article> 
-						</each>
-						</div><!-- #portfolio end -->
-
-					<div class="topmargin center"><a href="#" class="button button-border button-circle t600">View More Renderings</a></div>
-
-				</div>
-
-
-				<div id="section-contact" class="page-section notoppadding nobottompadding">
-
-					<div class="row noleftmargin norightmargin common-height">
-						<div id="headquarters-map" class="col-md-8 col-sm-6 gmap hidden-xs"></div>
-						<div class="col-md-4 col-sm-6" style="background-color: #F5F5F5;">
-							<div class="col-padding max-height">
-								<h3 class="font-body t400 ls1">Daniels Real Estate</h3>
-
-								<div style="font-size: 16px; line-height: 1.7;">
-									<address style="line-height: 1.7;">
-										2401 Utah Ave S., Suite #305<br>
-										Seattle, WA 98134<br>
-									</address>
-
-									<div class="clear topmargin"></div>
-
-									<abbr title="Phone Number"><strong>Phone:</strong></abbr> 206-382-4600<br>
-									<abbr title="Fax"><strong>Fax:</strong></abbr> 206-467-0423<br>
-									<abbr title="Email Address"><strong>Email:</strong></abbr> <a href="{{ dato.project[0].section1Title }}">{{ dato.project[0].email }}</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
 			</div>
+			<div id="section-stats" class="section dark parallax nobottommargin" style="padding: 80px 0;" data-stellar-background-ratio="0.3">
+				<div class="container clearfix">
+					<each loop='stats of dato.project[0].statistics'>
+							<div class="col_one_fifth nobottommargin center" data-animate="bounceIn">
+								<div class="counter counter-lined"><span data-from="0" data-to="{{ stats.statTitle }}" data-refresh-interval="50" data-speed="2000"></span></div>
+								<h5>{{ stats.statDesc }}</h5>
+							</div>
+					</each>
+				</div>
+			</div>
+			<div id="section-works" class="page-section notoppadding">
+				<div class="section nomargin">
+					<div class="container clearfix">
+						<div class="divcenter center" style="max-width: 900px;">
+							<h2 class="nobottommargin t300 ls1">{{ dato.project[0].section2Title }}</h2>
+							
+						</div>
+					</div>
+				</div>
+				<!-- Portfolio Items
+				============================================= -->
+				<div id="portfolio" class="portfolio grid-container portfolio-nomargin portfolio-full portfolio-masonry mixed-masonry clearfix">
+					<each loop='photo of dato.project[0].renders'>
+					<article class="portfolio-item pf-media pf-icons wide">
+						<div class="portfolio-image">
+							<a href="#">
+								<img src='{{ `//www.datocms-assets.com${photo.path}?fit=crop&w=800&fm=jpg` }}' alt="{{ photo.alt }}">
+							</a>
+							<div class="portfolio-overlay">
+								<div class="portfolio-desc">
+									<h3><a href="#">{{ photo.title }}</a></h3>
+								</div>
+							</div>
+						</div>
+					</article> 
+					</each>
+					</div><!-- #portfolio end -->
+			</div>
+			<section id="section-team" class="page-section notoppadding topmargin-sm">
+					<div class="heading-block center">
+						<h2>Our Team</h2>
+						<span>Organizations who have contributed enormously to {{ dato.project[0].projectTitle }}.</span>
+					</div>
+					<div class="container clearfix">
+					<each loop='team of dato.project[0].team'>
+						<div class="col-md-6 bottommargin">
+							<div class="team team-list clearfix">
+								<div class="team-image">
+									<img src='{{ `//www.datocms-assets.com${team.companyLogo.path}?fit=crop&w=800&fm=jpg` }}' alt="{{ team.companyName }}">
+								</div>
+								<div class="team-desc">
+									<div class="team-title"><h4>{{ team.companyName }}</h4><span>{{ team.companyRole }}</span></div>
+									<div class="team-content">{{ team.companyDesc }}</div>
+									<a href="{{ team.twitter }}" class="social-icon si-rounded si-small si-twitter">
+										<i class="icon-twitter"></i>
+										<i class="icon-twitter"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</each>
+					</div>
 
+				</section>
+
+
+
+
+			<div id="section-contact" class="page-section notoppadding nobottompadding">
+
+				<div class="row noleftmargin norightmargin common-height">
+					<div id="headquarters-map" class="col-md-8 col-sm-6 gmap hidden-xs"></div>
+					<div class="col-md-4 col-sm-6" style="background-color: #F5F5F5;">
+						<div class="col-padding max-height">
+							<h3 class="font-body t400 ls1">Daniels Real Estate</h3>
+
+							<div style="font-size: 16px; line-height: 1.7;">
+								<address style="line-height: 1.7;">
+									2401 Utah Ave S., Suite #305<br>
+									Seattle, WA 98134<br>
+								</address>
+
+								<div class="clear topmargin"></div>
+
+								<abbr title="Phone Number"><strong>Phone:</strong></abbr> 206-382-4600<br>
+								<abbr title="Fax"><strong>Fax:</strong></abbr> 206-467-0423<br>
+								<abbr title="Email Address"><strong>Email:</strong></abbr> <a href="{{ dato.project[0].section1Title }}">{{ dato.project[0].email }}</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section><!-- #content end -->
 
 
