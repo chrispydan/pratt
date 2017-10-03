@@ -18,7 +18,7 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
 	<!-- One Page Module Specific Stylesheet -->
 	<link rel="stylesheet" href="css/onepage.css" type="text/css" />
@@ -30,7 +30,6 @@
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 	<link rel="stylesheet" href="css/fonts.css" type="text/css" />
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
-	<script src="//use.edgefonts.net/abril-fatface.js"></script>
   </head> 
   <body class="stretched" data-loader="1" data-animation-in="fadeIn" data-speed-in="1500" data-animation-out="fadeOut" data-speed-out="800">
 
@@ -77,63 +76,42 @@
 					<ul>    <!-- SLIDE  -->
 						<li class="dark" data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="//www.datocms-assets.com{{ dato.project[0].backgroundIntro.path }}" data-delay="10000"  data-saveperformance="off" data-title="{{ dato.project[0].projectTitle }}">
 							<!-- MAIN IMAGE -->
-							<img src='//www.datocms-assets.com{{ dato.project[0].backgroundIntro.path }}?w=1920&h=1080&fm=jpg'  alt="kenburns6"  data-bgposition="left center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-bgpositionend="right center">
+							<img src='//www.datocms-assets.com{{ dato.project[0].backgroundIntro.path }}?w=1920&h=1080&fm=jpg'  alt="{{ dato.project[0].projectTitle }}"  data-bgposition="left center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-bgpositionend="right center">
 							<!-- LAYERS -->
 								<div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme"
-									 id="slide-166-layer-8"
-									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-									 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+									id="slide-166-layer-8"
+									data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
 									data-width="full"
 									data-height="full"
 									data-whitespace="nowrap"
 									data-transform_idle="o:1;"
-
-									 data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeOut;"
-									 data-transform_out="auto:auto;s:1000;"
-									 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+									data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeOut;"
+									data-transform_out="auto:auto;s:1000;"
+									data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
 									data-start="1500"
 									data-basealign="slide"
 									data-responsive_offset="on"
-
-
 									style="z-index: 2;background-color:rgba(0, 0, 0, 0.50);border-color:rgba(0, 0, 0, 1.00);">
 								</div>
 
-							<!-- LAYER NR. 2 -->
-							<div class="tp-caption tp-resizeme"
-							data-x="['left','left','left','left']" data-hoffset="['0','50','50','40']" 
-							data-y="['top','top','top','top']" data-voffset="['250','170','170','167']" 
-							data-fontsize="['60','50','30','30']"
-							data-lineheight="['90','75','60','60']"
-							data-letterspacing="['15','15','10','7']"
-							data-width="['100%','100%','561','401']"
-							data-height="none"
-							data-whitespace="normal"
-				
-							data-type="text" 
-							data-responsive_offset="on" 
 
-							data-margintop="[0,0,0,0]"
-							data-marginright="[0,0,0,0]"
-							data-marginbottom="[30,31,26,26]"
-							data-marginleft="[0,0,0,0]"
-							data-textAlign="['inherit','inherit','inherit','inherit']"
-							data-paddingtop="[0,0,0,0]"
-							data-paddingright="[0,0,0,0]"
-							data-paddingbottom="[0,0,0,0]"
-							data-paddingleft="[0,0,0,0]"
-							data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-							data-speed="800"
-							data-start="1000"
-							data-easing="easeOutQuad"
-							data-splitin="none"
-							data-splitout="none"
-							data-elementdelay="0.01"
-							data-endelementdelay="0.1"
-							data-endspeed="1000"
-							data-endeasing="Power4.easeIn"style="z-index: 8; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 60px; line-height: 90px; color: #fefefe; letter-spacing: 15px; display: block;font-family: abril-fatface, serif;text-transform:uppercase;">{{ dato.project[0].projectTitle }}<br />
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-3" id="slide-688-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-178','-178','-168','-141']" data-width="1" data-height="100" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:500;e:Power1.easeIn;s:500;e:Power1.easeIn;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1500" data-responsive_offset="on" data-responsive="off" style="z-index: 6;background-color:rgba(28, 188, 156, 1.00);border-color:rgba(0, 0, 0, 0);">
 							</div>
-							<div>{{ dato.project[0].subtitle }}</div>
+
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption Creative-SubTitle   tp-resizeme rs-parallaxlevel-2" id="slide-688-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-91','-91','-81','-64']" data-fontsize="['20','20','18','16']" data-lineheight="['14','14','14','12']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="2350" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;text-align:center; color:rgba(28, 188, 156, 1.00);" data-textAlign="center">{{ dato.project[0].subtitle }}
+							</div>
+				
+
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption Creative-Title   tp-resizeme rs-parallaxlevel-1" id="slide-688-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','-10','-10']" data-fontsize="['70','70','50','40']" data-lineheight="['70','70','55','45']" data-width="['none','none','none','320']" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="2550" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap;text-align:center;" data-textAlign="center">{{ dato.project[0].projectTitle }}
+							</div>
+							<!-- LAYER NR. 5 -->
+							<div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-3" id="slide-688-layer-5" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['137','137','119','100']" data-width="1" data-height="100" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[-100%];s:500;e:Power1.easeIn;s:500;e:Power1.easeIn;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="2900" data-responsive_offset="on" data-responsive="off" style="z-index: 9;background-color:rgba(28, 188, 156, 1.00);border-color:rgba(0, 0, 0, 0);">
+							</div>
+
 						</li>
 					</ul>
 				</div>

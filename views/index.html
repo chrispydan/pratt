@@ -24,19 +24,19 @@
 			<div id="section-stats" class="section dark parallax nobottommargin" style="padding: 80px 0;" data-stellar-background-ratio="0.3">
 				<div class="container clearfix">
 					<each loop='stats of dato.project[0].statistics'>
-							<div class="col_one_fifth nobottommargin center" data-animate="bounceIn">
-								<div class="counter counter-lined"><span data-from="0" data-to="{{ stats.statTitle }}" data-refresh-interval="50" data-speed="2000"></span></div>
-								<h5>{{ stats.statDesc }}</h5>
-							</div>
+						<div class="col_one_fourth nobottommargin center" data-animate="bounceIn">
+							<div class="counter counter-lined"><span data-from="0" data-to="{{ stats.statTitle }}" data-refresh-interval="50" data-speed="2000"></span></div>
+							<h5>{{ stats.statDesc }}</h5>
+						</div>
 					</each>
 				</div>
 			</div>
+
 			<div id="section-works" class="page-section notoppadding">
 				<div class="section nomargin">
 					<div class="container clearfix">
 						<div class="divcenter center" style="max-width: 900px;">
 							<h2 class="nobottommargin t300 ls1">{{ dato.project[0].section2Title }}</h2>
-							
 						</div>
 					</div>
 				</div>
@@ -57,7 +57,7 @@
 						</div>
 					</article> 
 					</each>
-					</div><!-- #portfolio end -->
+				</div><!-- #portfolio end -->
 			</div>
 			<section id="section-team" class="page-section notoppadding topmargin-sm">
 					<div class="container clearfix">
@@ -70,7 +70,7 @@
 						<div class="col-md-4 col-sm-6 bottommargin">
 							<div class="team">
 								<div class="team-image">
-									<img src='{{ `//www.datocms-assets.com${team.companyLogo.path}?fit=scale&w=200&fm=jpg` }}' alt="{{ team.companyName }}">
+									<img src='{{ `//www.datocms-assets.com${team.companyLogo.path}?fit=scale&w=350&fm=jpg` }}' alt="{{ team.companyName }}">
 								</div>
 								<div class="team-desc">
 									<div class="team-title"><h4>{{ team.companyName }}</h4><span>{{ team.companyRole }}</span></div>
