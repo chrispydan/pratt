@@ -17,6 +17,27 @@ Copyright (c) 2014 Daniel Eden
 	animation-fill-mode: both;
 }
 
+.animated.infinite {
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+}
+
+.animated.bounceIn,
+.animated.bounceOut {
+	-webkit-animation-duration: .75s;
+	animation-duration: .75s;
+}
+
+.animated.flipOutX,
+.animated.flipOutY {
+	-webkit-animation-duration: .75s;
+	animation-duration: .75s;
+}
 
 @-webkit-keyframes bounce {
 	0%, 20%, 53%, 80%, 100% {
@@ -101,6 +122,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.flash {
+	-webkit-animation-name: flash;
+	animation-name: flash;
+}
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
@@ -138,6 +163,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.pulse {
+	-webkit-animation-name: pulse;
+	animation-name: pulse;
+}
 
 @-webkit-keyframes rubberBand {
 	0% {
@@ -213,6 +242,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.rubberBand {
+	-webkit-animation-name: rubberBand;
+	animation-name: rubberBand;
+}
 
 @-webkit-keyframes shake {
 	0%, 100% {
@@ -248,6 +281,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.shake {
+	-webkit-animation-name: shake;
+	animation-name: shake;
+}
 
 @-webkit-keyframes swing {
 	20% {
@@ -364,6 +401,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.tada {
+	-webkit-animation-name: tada;
+	animation-name: tada;
+}
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
@@ -441,6 +482,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.wobble {
+	-webkit-animation-name: wobble;
+	animation-name: wobble;
+}
 
 @-webkit-keyframes jello {
 	11.1% {
@@ -523,6 +568,15 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+
+
+.jello{
+		-webkit-animation-name:jello;
+						animation-name:jello;
+		-webkit-transform-origin: center;
+
+						transform-origin: center
+}
 
 @-webkit-keyframes bounceIn {
 	0%, 20%, 40%, 60%, 80%, 100% {
@@ -677,6 +731,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.bounceInDown {
+	-webkit-animation-name: bounceInDown;
+	animation-name: bounceInDown;
+}
 
 @-webkit-keyframes bounceInLeft {
 	0%, 60%, 75%, 90%, 100% {
@@ -746,6 +804,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.bounceInLeft {
+	-webkit-animation-name: bounceInLeft;
+	animation-name: bounceInLeft;
+}
 
 @-webkit-keyframes bounceInRight {
 	0%, 60%, 75%, 90%, 100% {
@@ -815,6 +877,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.bounceInRight {
+	-webkit-animation-name: bounceInRight;
+	animation-name: bounceInRight;
+}
 
 @-webkit-keyframes bounceInUp {
 	0%, 60%, 75%, 90%, 100% {
@@ -884,6 +950,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.bounceInUp {
+	-webkit-animation-name: bounceInUp;
+	animation-name: bounceInUp;
+}
 
 @-webkit-keyframes bounceOut {
 	20% {
@@ -966,6 +1036,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.bounceOutDown {
+	-webkit-animation-name: bounceOutDown;
+	animation-name: bounceOutDown;
+}
 
 @-webkit-keyframes bounceOutLeft {
 	20% {
@@ -995,6 +1069,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.bounceOutLeft {
+	-webkit-animation-name: bounceOutLeft;
+	animation-name: bounceOutLeft;
+}
 
 @-webkit-keyframes bounceOutRight {
 	20% {
@@ -1024,6 +1102,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.bounceOutRight {
+	-webkit-animation-name: bounceOutRight;
+	animation-name: bounceOutRight;
+}
 
 @-webkit-keyframes bounceOutUp {
 	20% {
@@ -1063,6 +1145,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.bounceOutUp {
+	-webkit-animation-name: bounceOutUp;
+	animation-name: bounceOutUp;
+}
 
 @-webkit-keyframes fadeIn {
 	0% {
@@ -1117,6 +1203,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeInDown {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
 
 @-webkit-keyframes fadeInDownBig {
 	0% {
@@ -1146,6 +1236,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeInDownBig {
+	-webkit-animation-name: fadeInDownBig;
+	animation-name: fadeInDownBig;
+}
 
 @-webkit-keyframes fadeInLeft {
 	0% {
@@ -1175,6 +1269,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeInLeft {
+	-webkit-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+}
 
 @-webkit-keyframes fadeInLeftBig {
 	0% {
@@ -1204,6 +1302,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeInLeftBig {
+	-webkit-animation-name: fadeInLeftBig;
+	animation-name: fadeInLeftBig;
+}
 
 @-webkit-keyframes fadeInRight {
 	0% {
@@ -1233,6 +1335,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeInRight {
+	-webkit-animation-name: fadeInRight;
+	animation-name: fadeInRight;
+}
 
 @-webkit-keyframes fadeInRightBig {
 	0% {
@@ -1262,6 +1368,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeInRightBig {
+	-webkit-animation-name: fadeInRightBig;
+	animation-name: fadeInRightBig;
+}
 
 @-webkit-keyframes fadeInUp {
 	0% {
@@ -1291,6 +1401,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
 
 @-webkit-keyframes fadeInUpBig {
 	0% {
@@ -1320,6 +1434,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeInUpBig {
+	-webkit-animation-name: fadeInUpBig;
+	animation-name: fadeInUpBig;
+}
 
 @-webkit-keyframes fadeOut {
 	0% {
@@ -1370,6 +1488,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeOutDown {
+	-webkit-animation-name: fadeOutDown;
+	animation-name: fadeOutDown;
+}
 
 @-webkit-keyframes fadeOutDownBig {
 	0% {
@@ -1395,6 +1517,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeOutDownBig {
+	-webkit-animation-name: fadeOutDownBig;
+	animation-name: fadeOutDownBig;
+}
 
 @-webkit-keyframes fadeOutLeft {
 	0% {
@@ -1420,6 +1546,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeOutLeft {
+	-webkit-animation-name: fadeOutLeft;
+	animation-name: fadeOutLeft;
+}
 
 @-webkit-keyframes fadeOutLeftBig {
 	0% {
@@ -1445,6 +1575,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeOutLeftBig {
+	-webkit-animation-name: fadeOutLeftBig;
+	animation-name: fadeOutLeftBig;
+}
 
 @-webkit-keyframes fadeOutRight {
 	0% {
@@ -1470,6 +1604,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeOutRight {
+	-webkit-animation-name: fadeOutRight;
+	animation-name: fadeOutRight;
+}
 
 @-webkit-keyframes fadeOutRightBig {
 	0% {
@@ -1495,6 +1633,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeOutRightBig {
+	-webkit-animation-name: fadeOutRightBig;
+	animation-name: fadeOutRightBig;
+}
 
 @-webkit-keyframes fadeOutUp {
 	0% {
@@ -1520,6 +1662,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeOutUp {
+	-webkit-animation-name: fadeOutUp;
+	animation-name: fadeOutUp;
+}
 
 @-webkit-keyframes fadeOutUpBig {
 	0% {
@@ -1545,6 +1691,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.fadeOutUpBig {
+	-webkit-animation-name: fadeOutUpBig;
+	animation-name: fadeOutUpBig;
+}
 
 @-webkit-keyframes flip {
 	0% {
@@ -1620,6 +1770,12 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.animated.flip {
+	-webkit-backface-visibility: visible;
+	backface-visibility: visible;
+	-webkit-animation-name: flip;
+	animation-name: flip;
+}
 
 @-webkit-keyframes flipInX {
 	0% {
@@ -1687,6 +1843,12 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.flipInX {
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+	-webkit-animation-name: flipInX;
+	animation-name: flipInX;
+}
 
 @-webkit-keyframes flipInY {
 	0% {
@@ -1754,6 +1916,12 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.flipInY {
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+	-webkit-animation-name: flipInY;
+	animation-name: flipInY;
+}
 
 @-webkit-keyframes flipOutX {
 	0% {
@@ -1793,6 +1961,12 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.flipOutX {
+	-webkit-animation-name: flipOutX;
+	animation-name: flipOutX;
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+}
 
 @-webkit-keyframes flipOutY {
 	0% {
@@ -1832,6 +2006,12 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.flipOutY {
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+	-webkit-animation-name: flipOutY;
+	animation-name: flipOutY;
+}
 
 @-webkit-keyframes lightSpeedIn {
 	0% {
@@ -1885,6 +2065,12 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.lightSpeedIn {
+	-webkit-animation-name: lightSpeedIn;
+	animation-name: lightSpeedIn;
+	-webkit-animation-timing-function: ease-out;
+	animation-timing-function: ease-out;
+}
 
 @-webkit-keyframes lightSpeedOut {
 	0% {
@@ -1910,6 +2096,12 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.lightSpeedOut {
+	-webkit-animation-name: lightSpeedOut;
+	animation-name: lightSpeedOut;
+	-webkit-animation-timing-function: ease-in;
+	animation-timing-function: ease-in;
+}
 
 @-webkit-keyframes rotateIn {
 	0% {
@@ -1947,6 +2139,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.rotateIn {
+	-webkit-animation-name: rotateIn;
+	animation-name: rotateIn;
+}
 
 @-webkit-keyframes rotateInDownLeft {
 	0% {
@@ -1984,6 +2180,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.rotateInDownLeft {
+	-webkit-animation-name: rotateInDownLeft;
+	animation-name: rotateInDownLeft;
+}
 
 @-webkit-keyframes rotateInDownRight {
 	0% {
@@ -2021,6 +2221,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.rotateInDownRight {
+	-webkit-animation-name: rotateInDownRight;
+	animation-name: rotateInDownRight;
+}
 
 @-webkit-keyframes rotateInUpLeft {
 	0% {
@@ -2058,6 +2262,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.rotateInUpLeft {
+	-webkit-animation-name: rotateInUpLeft;
+	animation-name: rotateInUpLeft;
+}
 
 @-webkit-keyframes rotateInUpRight {
 	0% {
@@ -2095,6 +2303,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.rotateInUpRight {
+	-webkit-animation-name: rotateInUpRight;
+	animation-name: rotateInUpRight;
+}
 
 @-webkit-keyframes rotateOut {
 	0% {
@@ -2128,6 +2340,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.rotateOut {
+	-webkit-animation-name: rotateOut;
+	animation-name: rotateOut;
+}
 
 @-webkit-keyframes rotateOutDownLeft {
 	0% {
@@ -2161,6 +2377,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.rotateOutDownLeft {
+	-webkit-animation-name: rotateOutDownLeft;
+	animation-name: rotateOutDownLeft;
+}
 
 @-webkit-keyframes rotateOutDownRight {
 	0% {
@@ -2194,6 +2414,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.rotateOutDownRight {
+	-webkit-animation-name: rotateOutDownRight;
+	animation-name: rotateOutDownRight;
+}
 
 @-webkit-keyframes rotateOutUpLeft {
 	0% {
@@ -2227,6 +2451,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.rotateOutUpLeft {
+	-webkit-animation-name: rotateOutUpLeft;
+	animation-name: rotateOutUpLeft;
+}
 
 @-webkit-keyframes rotateOutUpRight {
 	0% {
@@ -2260,6 +2488,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.rotateOutUpRight {
+	-webkit-animation-name: rotateOutUpRight;
+	animation-name: rotateOutUpRight;
+}
 
 @-webkit-keyframes hinge {
 	0% {
@@ -2329,6 +2561,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.hinge {
+	-webkit-animation-name: hinge;
+	animation-name: hinge;
+}
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
@@ -2360,6 +2596,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.rollIn {
+	-webkit-animation-name: rollIn;
+	animation-name: rollIn;
+}
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
@@ -2387,6 +2627,10 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
+.rollOut {
+	-webkit-animation-name: rollOut;
+	animation-name: rollOut;
+}
 
 @-webkit-keyframes zoomIn {
 	0% {

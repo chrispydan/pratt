@@ -60,16 +60,17 @@
 					</div><!-- #portfolio end -->
 			</div>
 			<section id="section-team" class="page-section notoppadding topmargin-sm">
+					<div class="container clearfix">
 					<div class="heading-block center">
 						<h2>Our Team</h2>
 						<span>Organizations who have contributed enormously to {{ dato.project[0].projectTitle }}.</span>
 					</div>
-					<div class="container clearfix">
+					
 					<each loop='team of dato.project[0].team'>
-						<div class="col-md-6 bottommargin">
-							<div class="team team-list clearfix">
+						<div class="col-md-4 col-sm-6 bottommargin">
+							<div class="team">
 								<div class="team-image">
-									<img src='{{ `//www.datocms-assets.com${team.companyLogo.path}?fit=crop&w=800&fm=jpg` }}' alt="{{ team.companyName }}">
+									<img src='{{ `//www.datocms-assets.com${team.companyLogo.path}?fit=clip&h=200&fm=jpg` }}' alt="{{ team.companyName }}">
 								</div>
 								<div class="team-desc">
 									<div class="team-title"><h4>{{ team.companyName }}</h4><span>{{ team.companyRole }}</span></div>
@@ -96,10 +97,10 @@
 								</div>
 							</div>
 						</div>
-						<div class="clear"></div>
+						
 					</each>
+					<div class="clear"></div>
 					</div>
-
 				</section>
 
 

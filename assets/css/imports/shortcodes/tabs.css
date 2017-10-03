@@ -233,6 +233,7 @@ ul.tab-nav li a i {
 	width: 200px;
 	padding: 20px 0;
 	border-bottom: 0;
+	border-right: 1px solid #DDD;
 }
 
 .side-tabs ul.tab-nav li {
@@ -306,6 +307,7 @@ ul.tab-nav li a i {
 
 .tabs-bordered.side-tabs ul.tab-nav li.ui-tabs-active a {
 	right: -1px;
+	border-right: 1px solid #FFF;
 }
 
 .tabs-bordered.side-tabs .tab-container {
@@ -336,6 +338,7 @@ ul.tab-nav li a i {
 	padding: 11px 20px 11px 14px;
 	font-size: 14px;
 	border: 1px solid #E5E5E5;
+	border-right-width: 2px;
 	color: #666;
 }
 
