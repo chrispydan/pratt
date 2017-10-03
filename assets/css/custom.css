@@ -9,3 +9,13 @@
     margin-right: 0!important;
     clear: right;
 }
+
+.col-md-4:nth-child(3n){
+    margin-right: 0!important;
+    clear: right;
+}
+
+.col-sm-6:nth-child(2n){
+    margin-right: 0!important;
+    clear: right;
+}
