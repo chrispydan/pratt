@@ -32,6 +32,26 @@
   .col-sm-6:nth-child(2n+1){
     clear: left;
   }
+  
+  /* Column padding-right fix */
+  .col-md-1:nth-child(12n),
+  .col-md-2:nth-child(6n),
+  .col-md-3:nth-child(4n),
+  .col-md-4:nth-child(3n),
+  .col-md-6:nth-child(2n),
+  .col-sm-1:nth-child(12n),
+  .col-sm-2:nth-child(6n),
+  .col-sm-3:nth-child(4n),
+  .col-sm-4:nth-child(3n),
+  .col-sm-6:nth-child(2n),
+  .col-lg-1:nth-child(12n),
+  .col-lg-2:nth-child(6n),
+  .col-lg-3:nth-child(4n),
+  .col-lg-4:nth-child(3n),
+  .col-lg-6:nth-child(2n){
+    padding-right: 0;
+  }
+  
 }
 
 
@@ -58,6 +78,26 @@
   .col-md-6:nth-child(2n+1){
     clear: left;
   }
+  
+  /* Column padding-right fix */
+  .col-md-1:nth-child(12n),
+  .col-md-2:nth-child(6n),
+  .col-md-3:nth-child(4n),
+  .col-md-4:nth-child(3n),
+  .col-md-6:nth-child(2n),
+  .col-sm-1:nth-child(12n),
+  .col-sm-2:nth-child(6n),
+  .col-sm-3:nth-child(4n),
+  .col-sm-4:nth-child(3n),
+  .col-sm-6:nth-child(2n),
+  .col-lg-1:nth-child(12n),
+  .col-lg-2:nth-child(6n),
+  .col-lg-3:nth-child(4n),
+  .col-lg-4:nth-child(3n),
+  .col-lg-6:nth-child(2n){
+    padding-right: 0;
+  }
+  
 }
 
 
@@ -84,4 +124,23 @@
   .col-lg-6:nth-child(2n+1){
     clear: left;
   }
+    /* Column padding-right fix */
+  .col-md-1:nth-child(12n),
+  .col-md-2:nth-child(6n),
+  .col-md-3:nth-child(4n),
+  .col-md-4:nth-child(3n),
+  .col-md-6:nth-child(2n),
+  .col-sm-1:nth-child(12n),
+  .col-sm-2:nth-child(6n),
+  .col-sm-3:nth-child(4n),
+  .col-sm-4:nth-child(3n),
+  .col-sm-6:nth-child(2n),
+  .col-lg-1:nth-child(12n),
+  .col-lg-2:nth-child(6n),
+  .col-lg-3:nth-child(4n),
+  .col-lg-4:nth-child(3n),
+  .col-lg-6:nth-child(2n){
+    padding-right: 0;
+  }
+  
 }
