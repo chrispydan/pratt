@@ -328,9 +328,13 @@
 		});
 
 	</script>
-      <script>
-        $('ul li:nth-child(4n+3)').addClass("col_last");
-      </script>
+        <script>
+jQuery(function() {
+    jQuery(document).ready(function() {
+        jQuery("div.wrapper > div.col_one_fourth:nth-child(4n)").addClass("last");
+    });
+});
+</script>
     </block>
   </body>
 </html>
