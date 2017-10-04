@@ -9,3 +9,10 @@
     margin-right: 0!important;
     clear: right;
 }
+
+
+.col-sm-6:nth-child(2n){
+	@media (max-width: 767px){
+		clear: both;
+	}
+}

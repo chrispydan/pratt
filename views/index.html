@@ -67,8 +67,8 @@
 					</div>
 					
 					<each loop='team of dato.project[0].team'>
-						<div class="col-md-4 col-sm-6 bottommargin">
-							<div class="team">
+						<div class="col-md-4 bottommargin">
+							<div class="team clearfix">
 								<div class="team-image">
 									<img src='{{ `//www.datocms-assets.com${team.companyLogo.path}?fit=scale&w=350&fm=jpg` }}' alt="{{ team.companyName }}">
 								</div>
@@ -93,9 +93,9 @@
 									<a href="#" class="social-icon si-small si-borderless nobottommargin si-linkedin">
 										<i class="fa fa-external-link"></i>
 									</a>
-									
 								</div>
 							</div>
+							
 						</div>
 						
 					</each>
