@@ -1,6 +1,6 @@
-# 800 Columbia
+# The Pratt
 
-website for 800 Columbia Seattle, WA
+website for The Pratt Seattle, WA
 
 ## Setup
 
