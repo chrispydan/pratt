@@ -12,8 +12,8 @@
 							<div class="nobottommargin">
 
 								<div class="emphasis-title">
-									<h2>{{ dato.project[0].section1Title }}</h2>
-									<p class="lead">{{ dato.project[0].section1Content }}</p>
+									<h2>{{ dato.project[1].section1Title }}</h2>
+									<p class="lead">{{ dato.project[1].section1Content }}</p>
 								</div>
 
 							</div>
@@ -23,7 +23,7 @@
 			</div>
 			<div id="section-stats" class="section dark parallax nobottommargin" style="padding: 80px 0;" data-stellar-background-ratio="0.3">
 				<div class="container clearfix">
-					<each loop='stats of dato.project[0].statistics'>
+					<each loop='stats of dato.project[1].statistics'>
 						<div class="col_one_fourth nobottommargin center" data-animate="bounceIn">
 							<div class="counter counter-lined"><span data-from="0" data-to="{{ stats.statTitle }}" data-refresh-interval="50" data-speed="2000"></span></div>
 							<h5>{{ stats.statDesc }}</h5>
@@ -36,14 +36,14 @@
 				<div class="section nomargin">
 					<div class="container clearfix">
 						<div class="divcenter center" style="max-width: 900px;">
-							<h2 class="nobottommargin t300 ls1">{{ dato.project[0].section2Title }}</h2>
+							<h2 class="nobottommargin t300 ls1">{{ dato.project[1].section2Title }}</h2>
 						</div>
 					</div>
 				</div>
 				<!-- Portfolio Items
 				============================================= -->
 				<div id="portfolio" class="portfolio grid-container portfolio-nomargin portfolio-full portfolio-masonry mixed-masonry clearfix">
-					<each loop='photo of dato.project[0].renders'>
+					<each loop='photo of dato.project[1].renders'>
 					<article class="portfolio-item pf-media pf-icons wide">
 						<div class="portfolio-image">
 							<a href="#">
@@ -63,14 +63,14 @@
 					<div class="container clearfix">
 					<div class="heading-block center">
 						<h2>Our Team</h2>
-						<span>Organizations who have contributed enormously to {{ dato.project[0].projectTitle }}.</span>
+						<span>Organizations who have contributed enormously to {{ dato.project[1].projectTitle }}.</span>
 					</div>
 					
-					<each loop='team of dato.project[0].team'>
+					<each loop='team of dato.project[1].team'>
 						<div class="col-md-4 bottommargin">
 							<div class="team clearfix">
 								<div class="team-image">
-									<img src='{{ `//www.datocms-assets.com${team.companyLogo.path}?fit=scale&w=350&fm=jpg` }}' alt="{{ team.companyName }}">
+									<img src='{{ `//www.datocms-assets.com${team.companyLogo.path}` }}' alt="{{ team.companyName }}">
 								</div>
 								<div class="team-desc">
 									<div class="team-title"><h4>{{ team.companyName }}</h4><span>{{ team.companyRole }}</span></div>
@@ -128,7 +128,7 @@
 
 								<strong>Phone: </strong> 206-382-4600<br>
 								<strong>Fax: </strong> 206-467-0423<br>
-								<strong>Email: </strong><a href="{{ dato.project[0].email }}">{{ dato.project[0].email }}</a>
+								<strong>Email: </strong><a href="{{ dato.project[1].email }}">{{ dato.project[1].email }}</a>
 							</div>
 						</div>
 					</div>
@@ -140,4 +140,3 @@
 
   </block>
 </extends>
-
